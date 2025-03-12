@@ -1,0 +1,10 @@
+# basic
+numpy
+pandas
+# AI related
+torch
+transformers
+sentencepiece
+datasets
+huggingface_hub
+torchmetrics

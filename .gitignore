@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# custom file folders
+data/
+checkpoints/
+logs/
+models/
