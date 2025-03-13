@@ -1,6 +1,7 @@
 # basic
 numpy
 pandas
+scipy
 # AI related
 torch
 transformers
