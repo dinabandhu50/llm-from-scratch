@@ -9,3 +9,5 @@ sentencepiece
 datasets
 huggingface_hub
 torchmetrics
+openai
+tiktoken
