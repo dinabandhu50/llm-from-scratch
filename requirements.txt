@@ -2,6 +2,7 @@
 numpy
 pandas
 scipy
+requests
 # AI related
 torch
 transformers
