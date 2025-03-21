@@ -178,3 +178,4 @@ data/
 checkpoints/
 logs/
 models/
+mytest.py
