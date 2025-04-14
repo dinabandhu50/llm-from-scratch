@@ -51,3 +51,28 @@ Switch the repo from HTTPS to SSH:
 ```sh
 git remote set-url origin git@github.com:your-username/your-repo.git
 ```
+
+## git workflow solo dev
+
+### 1. Work on your feature
+```sh
+git checkout -b feature/my-feature
+```
+### 2. Do your commits
+```sh
+git add .
+git commit -m "Add cool feature"
+```
+### 3. Rebase onto the latest main
+```sh
+git fetch origin
+git rebase origin/main
+```
+
+### 4. Then, when you're ready to bring it into main  
+```sh
+git checkout main
+git pull origin main
+git merge feature/my-feature --ff-only  # fast-forward only
+git push origin main
+```
