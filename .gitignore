@@ -179,3 +179,5 @@ checkpoints/
 logs/
 models/
 mytest.py
+*.DS_Store
+practice/
