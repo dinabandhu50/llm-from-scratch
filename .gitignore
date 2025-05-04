@@ -173,11 +173,15 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# remove DS_Store files
+.DS_Store
+*.DS_Store
+
+
 # custom file folders
 data/
 checkpoints/
 logs/
 models/
 mytest.py
-*.DS_Store
 practice/
